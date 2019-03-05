@@ -1,0 +1,35 @@
+html{
+    font-size: 25px;
+}
+body {
+    background-color: purple;
+    font-family: 'Amatic SC', cursive;
+  
+}
+
+#wrap {
+    background-color: plum;
+    color: black;
+    width: 90%;
+}
+
+#header {
+    background-color: purple;
+    text-align: center;
+    padding: 15px;
+}
+
+#title {
+    font-size: 55px;
+    color: orange;
+}
+
+
+
+.btn {
+    margin: 5px;
+}
+.submit {
+    background-color: purple;
+    color: orange;
+}
