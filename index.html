@@ -15,15 +15,32 @@
 </head>
 
 <body>
-    
-
-
-
-
-
-
-
-
+    <div class="container-fluid" id="wrap">
+        <!--Title Nav Area-->
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="header">
+                <h3 id="title">GifTastic!</h3>
+            </div>
+        </div>
+        <!--Area With Buttons-->
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="buttonArea"></div>
+        </div>
+        <!--Area with Gifs-->
+        <div class="row">
+            <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9" id="gifArea"></div>
+            <!--Input Area-->
+            <div class="col-xs-3 col-sm-3 col-md-3col-lg-3">
+                <form>
+                    <fieldset>
+                        <label for="topic-input">Choose a topic:</label><br>
+                        <input type="text" placeholder="Type something…" id="topic-input">
+                        <button type="submit" class="btn submit" data="submitBtn">Submit</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
 
     <!--BootStrap Links-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -35,7 +52,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-    
+
     <!--Link to app.js-->
     <script src="assets/javascript/app.js"></script>
     <!--JQUERY CDN-->
